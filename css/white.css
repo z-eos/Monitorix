@@ -1,42 +1,25 @@
 body {
     background-color: white;
     font-family: Verdana, sans-serif;
-//    color: white;
+    color: #888888;
 }
 
-/* .index-body { */
-/*     background-color: black; */
-/*     font-family: Verdana, sans-serif; */
-/*     color: #888888; */
-/* } */
-
-/* select, input { */
-/*     border-radius: 0; */
-/*     border: none; */
-/*     padding: 10px; */
-/* } */
-
-/* input[type=button], input[type=submit], input[type=reset] { */
-/*   background-color: white; */
-/*   border: none; */
-/*   color: black; */
-/*   padding: 10px 16px; */
-/*   text-decoration: none; */
-/*   margin: 4px 2px; */
-/*   cursor: pointer; */
-/* } */
-
 table {
-    background: #888888;
-    border: 1px black;
+    background: #cccccc;
     border-left: 1px outset #888888;
-    border-top: 1px outset #888888;
-    border-right: 1px outset black;
-    border-bottom: 1px outset black;
+    border-top: 1px outset  #888888;
+    border-right: 1px outset  #7a7a7a;
+    border-bottom: 1px outset #7a7a7a;
     border-spacing: 5px;
 }
 
-cgi-header-table {
+th, td {
+    border: 1px inset #888888;
+    background-color: #777777;
+    padding: 0;
+}
+
+.cgi-header-table {
     border: 1px groove black;
     border-spacing: 5px;
 }
@@ -49,16 +32,6 @@ cgi-header-table {
 
 .table-module {
     background: #cccccc;
-}
-
-/* th { */
-/*     background-color: #888888; */
-/* } */
-
-th, td {
-    border: 1px inset #888888;
-    background-color: #777777;
-    padding: 0;
 }
 
 .td-title {
@@ -85,7 +58,6 @@ th, td {
 
 .text-copyright {
     font-size: 60%;
-//    color: white;
 }
 
 .text-size {

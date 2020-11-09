@@ -223,7 +223,11 @@ EOF
 	if(!open(OUT, "> $config{base_dir}/index.html")) {
 		die "unable to create '${config{base_dir}}index.html': $!";
 	}
+<<<<<<< HEAD
 	my $css = sprintf("%scss/monitorix-%s.css", $base_url, $config{theme_color});
+=======
+	my $css = sprintf("%scss/%s.css", $base_url, $config{theme_color});
+>>>>>>> f74ce8a7f63b75a0dc7ca968a61edf16fffc355b
 	print(OUT <<EOF);
 <!DOCTYPE html "-//W3C//DTD HTML 4.01 Final//EN">
 <html>
